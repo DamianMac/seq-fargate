@@ -6,13 +6,6 @@ terraform {
     }
   }
 
-  backend "remote" {
-    organization = "larene-dev"
-
-    workspaces {
-      name = ""
-    }
-  }
 }
 
 provider "aws" {
